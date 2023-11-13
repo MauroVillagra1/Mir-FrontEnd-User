@@ -1,12 +1,12 @@
 .card-anuncios-home{
     background-color: var(--color-fondo-cards-home);
     width: 20vw;
-    height: 50vh;
+    height: 250px;
     margin-top: 2%;
     padding: 10px;
     min-width: 150px;
     margin: 0 1%;
-    min-height: 250px;
+   
 }
 
 .header-img-anuncions-home{
