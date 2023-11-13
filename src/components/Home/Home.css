@@ -1,0 +1,58 @@
+.background-home{
+    background-color: var(--color-fondo);
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion-home{
+    padding: 2% 4% 2% 2%;
+    color: var(--color-letra-home);
+}
+
+.line-home{
+    border-bottom: var(--color-letra-home) 2px solid;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.cards-home{
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-home{
+    margin: 0.25% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-card-left{
+    position: static;
+    top: 40%;
+    height: 100px;
+    left: 0;
+    background-color: var(--color-button-card-home) !important;
+    border: 2px var(--color-button-card-home) solid !important;
+    z-index: 3;
+    opacity: 80%;
+    border-radius: 0 !important;
+}
+
+.button-card-right{
+    position: static;
+    top: 40px;
+    height: 100px;
+    right: 0;
+    background-color: var(--color-button-card-home) !important;
+    border: 2px var(--color-button-card-home) solid !important;
+    z-index: 3;
+    opacity: 80%;
+    border-radius: 0 !important;
+
+}
